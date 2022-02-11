@@ -1,0 +1,25 @@
+.main-container{
+    @media(min-width:769px){
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @media(max-width:768px){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+body{
+    color: $black;
+    font-size: 22px;
+    line-height: 143.9%;
+}
+.main-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 127.5%;
+
+    @media(max-width:768px){
+        font-size: 36px;
+    }
+}
