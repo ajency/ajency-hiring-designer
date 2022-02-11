@@ -1,14 +1,13 @@
 .main-container{
-    @media(min-width:1200px) and (max-width:1400px){
-        padding-left: 20px;
-        padding-right: 20px;
+    @media(min-width:769px){
+        padding-left: 0px;
+        padding-right: 0px;
     }
     @media(min-width:1200px){
         max-width: 1347px;
     }
-    @media(min-width:769px){
-        padding-left: 0px;
-        padding-right: 0px;
+    @media(min-width:1200px) and (max-width:1400px){
+        max-width: 1000px;
     }
     @media(max-width:768px){
         padding-left: 20px;
