@@ -38,3 +38,26 @@ body{
     width: 163px;
     margin-left: 0;
 }
+.btn{
+    background-color: $black;
+    color: $white;
+    padding: 14px;
+    width: 220px;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 143.9%;
+    border:none;
+    box-shadow: none;
+    outline: none;
+
+    &:hover{
+        color: $white;
+    }
+
+    @media(min-width:769px){
+        &:hover{
+            background-color: $black-hover;
+        }
+    }
+}
