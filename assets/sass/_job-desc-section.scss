@@ -62,3 +62,31 @@
         }
     }
 }
+
+.black-section{
+    margin-bottom: 83px;
+    @media(max-width:768px){
+        margin-bottom: 40px;
+    }
+}
+
+.hiring-team-section{
+    margin-bottom: 77px;
+    @media(max-width:768px){
+        margin-bottom: 60px;
+    }
+}
+
+.video-section{
+    margin-bottom: 80px;
+    @media(max-width:768px){
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+.faq-section{
+    @media(max-width:768px){
+        padding: 0px;
+    }
+}
