@@ -18,10 +18,10 @@
     .right-side{
         .gif-container{
             background-color: $primary;
-            padding: 102px 0px 52px;
+            /*padding: 102px 0px 52px;*/
             text-align: center;
             img{
-                width: 432px;
+                /*width: 432px;*/
                 height: auto;
             }
         }
@@ -37,7 +37,49 @@
         }
         .right-side{
             .gif-container{
+                height: 526px;
                 margin-top: -175px;
+            }
+        }
+    }
+    @media(max-width:991px){
+        &.new{
+            padding: 0px;
+
+            .right-side{
+                margin-bottom: 52px;
+                .gif-container{
+                    display: flex;
+                    width: 100%;
+                    background-color: transparent;
+                    .main-title{
+                        padding: 57px 13px 57px 21px;
+                        width: 50%;
+                        margin: 0px;
+                        position: relative;
+                        z-index: 1;
+                    }
+                    img{
+                        position: absolute;
+                        right: 0;
+                    }
+                    .bg-element{
+                        padding: 57px 13px 57px 21px;
+                        width: 50%;
+                        background-color: $primary;
+                        color: transparent;
+                        height: 238px;
+                        position: absolute;
+                        left: 0;
+                        .main-title{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+            .left-side{
+                padding-left: 20px !important; 
+                padding-right: 20px !important;
             }
         }
     }
@@ -45,14 +87,16 @@
     @media(max-width:768px){
         margin-bottom: 51px;
         .main-title{
-            font-size: 32px;
+            /*font-size: 32px;*/
+            font-size: 24px; //new markup
             margin-top: 20px;
             margin-bottom: 30px;
         }
         .right-side{
+            position:relative; //new markup
             .gif-container{
-                width: 209px;
-                padding: 7px 40px 8px;
+                /*width: 209px;*/
+                /*padding: 7px 40px 8px;*/
                 img{
                     width: 209px;
                 }
@@ -62,6 +106,16 @@
             ul{
                 margin-top: 24px;
                 font-size: 18px;
+            }
+        }
+        &.new{
+            .right-side{
+                .gif-container{
+                    img{
+                        width: auto;
+                        height: 290px;
+                    }
+                }
             }
         }
     }
