@@ -71,6 +71,11 @@
             }
         }
     }
+    @media(min-width:992px) and (max-width:1400px){
+        .job-title{
+            min-height: 86px;
+        }
+    }
 }
 
 .black-section{

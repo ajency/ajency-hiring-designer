@@ -84,6 +84,11 @@
         }
     }
     /* mobile + tablet */
+    @media (max-width:425px){
+        .right-side{
+            margin-bottom: 20px !important;
+        }
+    }
     @media(max-width:991px){
         margin-bottom: 51px;
         .main-title{
