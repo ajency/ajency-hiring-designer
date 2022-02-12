@@ -371,7 +371,7 @@ header {
 }
 
 .hero-section {
-  margin-bottom: 146px;
+  margin-bottom: 80px;
   /* desktop */
   /* mobile + tablet */
 }
@@ -398,7 +398,7 @@ header {
 }
 
 .hero-section .right-side .gif-container img {
-  /*width: 432px;*/
+  max-width: 610px;
   height: auto;
 }
 
@@ -489,7 +489,7 @@ header {
 
 @media (min-width: 1400px) {
   .hero-section {
-    margin-bottom: 188px;
+    margin-bottom: 100px;
   }
 }
 

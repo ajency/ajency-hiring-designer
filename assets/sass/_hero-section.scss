@@ -1,5 +1,5 @@
 .hero-section{
-    margin-bottom: 146px;
+    margin-bottom: 80px;
     .main-title{
         font-size: 64px;
         line-height: 127.5%;
@@ -21,7 +21,7 @@
             /*padding: 102px 0px 52px;*/
             text-align: center;
             img{
-                /*width: 432px;*/
+                max-width: 610px;
                 height: auto;
             }
         }
@@ -120,6 +120,6 @@
         }
     }
     @media (min-width: 1400px){
-        margin-bottom: 188px;
+        margin-bottom: 100px;
     }
 }
