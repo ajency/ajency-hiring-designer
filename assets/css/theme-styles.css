@@ -434,6 +434,7 @@ header {
     margin: 0px;
     position: relative;
     z-index: 1;
+    text-align: left;
   }
   .hero-section.new .right-side .gif-container img {
     position: absolute;
