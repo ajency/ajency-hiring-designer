@@ -84,7 +84,7 @@
         }
     }
     /* mobile + tablet */
-    @media(max-width:768px){
+    @media(max-width:991px){
         margin-bottom: 51px;
         .main-title{
             /*font-size: 32px;*/
@@ -118,5 +118,8 @@
                 }
             }
         }
+    }
+    @media (min-width: 1400px){
+        margin-bottom: 188px;
     }
 }

@@ -100,7 +100,7 @@ header {
 }
 
 .clients-section .main-title {
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -108,13 +108,12 @@ header {
 @media (max-width: 768px) {
   .clients-section .main-title {
     max-width: 100%;
-    text-align: left;
   }
 }
 
 @media (max-width: 768px) {
   .clients-section {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 
@@ -134,7 +133,17 @@ header {
 
 @media (max-width: 768px) {
   .process-section {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+.process-section .main-title {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .process-section .main-title {
+    margin-bottom: 35px;
   }
 }
 
@@ -175,9 +184,9 @@ header {
   padding-bottom: 20%;
   z-index: 2;
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 36.6%;
+  top: -6px;
+  left: 0;
+  width: 30%;
 }
 
 @media (max-width: 992px) {
@@ -193,16 +202,17 @@ header {
 
 .slider .item .item-gif {
   position: absolute;
-  top: 0;
-  -webkit-transform: translateY(-20%);
-          transform: translateY(-20%);
-  right: 20px;
-  width: 80%;
+  top: -6px;
+  right: 0;
+  width: 70%;
   z-index: 1;
 }
 
 @media (max-width: 992px) {
   .slider .item .item-gif {
+    top: 0;
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
     width: 100%;
     right: 0;
   }
@@ -229,21 +239,29 @@ header {
 
 @media (max-width: 479px) {
   #clients-slick {
-    margin-right: -20px;
-    margin-left: -20px;
+    margin-right: -15px;
+    margin-left: -15px;
   }
   #clients-slick .slick-slide:not(.slick-active) {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
   #clients-slick p {
+    font-size: 18px;
+    line-height: 25.9px;
     text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #clients-slick {
+    margin-top: 2%;
   }
 }
 
 @media (max-width: 479px) {
   #process-slick {
-    margin-right: -20px !important;
+    margin-right: -15px !important;
   }
 }
 
@@ -270,6 +288,17 @@ header {
   }
 }
 
+@media (max-width: 479px) {
+  #process-slick .item {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  #process-slick .item p {
+    font-size: 18px;
+    line-height: 25.9px;
+  }
+}
+
 #process-slick .slick-list {
   padding-top: 80px;
 }
@@ -280,7 +309,7 @@ header {
 
 @media (max-width: 992px) {
   #process-slick .slick-list {
-    padding-top: 70px;
+    padding-top: 70px !important;
   }
 }
 
@@ -326,8 +355,8 @@ header {
 
 @media (max-width: 479px) {
   .icon-container {
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 }
 
@@ -363,7 +392,7 @@ header {
 }
 
 .hero-section .right-side .gif-container {
-  background-color: #FCD800;
+  background-color: #F0C60A;
   /*padding: 102px 0px 52px;*/
   text-align: center;
 }
@@ -413,7 +442,7 @@ header {
   .hero-section.new .right-side .gif-container .bg-element {
     padding: 57px 13px 57px 21px;
     width: 50%;
-    background-color: #FCD800;
+    background-color: #F0C60A;
     color: transparent;
     height: 238px;
     position: absolute;
@@ -428,7 +457,7 @@ header {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .hero-section {
     margin-bottom: 51px;
   }
@@ -458,6 +487,12 @@ header {
   }
 }
 
+@media (min-width: 1400px) {
+  .hero-section {
+    margin-bottom: 188px;
+  }
+}
+
 .job-desc-section {
   margin-bottom: 80px;
   /* tablet + mobile */
@@ -469,8 +504,9 @@ header {
 }
 
 .job-desc-section .job-desc .job-desc-wrapper {
-  background-color: #FCD800;
+  background-color: #F0C60A;
   padding: 53px 43px 60px;
+  padding-bottom: 120px;
   height: 100%;
 }
 
@@ -494,7 +530,12 @@ header {
   margin: 45px 0px 40px;
 }
 
-@media (max-width: 768px) {
+.job-desc-section .job-desc .job-desc-wrapper .float-button {
+  position: absolute;
+  bottom: 60px;
+}
+
+@media (max-width: 991px) {
   .job-desc-section {
     margin-bottom: 20px;
   }
@@ -506,6 +547,7 @@ header {
   }
   .job-desc-section .job-desc .job-desc-wrapper {
     padding: 30px 20px;
+    padding-bottom: 90px;
   }
   .job-desc-section .job-desc .job-desc-wrapper .job-title {
     font-size: 24px;
@@ -518,9 +560,12 @@ header {
     padding-left: 20px;
     margin: 30px 0px;
   }
+  .job-desc-section .job-desc .job-desc-wrapper .float-button {
+    bottom: 30px;
+  }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .job-desc-section .job-desc:first-child {
     padding-right: 10.5px;
     padding-left: 0px;

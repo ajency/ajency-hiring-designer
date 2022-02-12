@@ -73,6 +73,9 @@ $(document).ready(function () {
         ]
     })
 
+    let bannerGif = $('.banner-gif').attr('lsrc');
+    $('.banner-gif').attr('src',bannerGif);
+    $('.banner-gif').show()
 });
 
 var bgHeight = $(".hero-section.new .right-side .main-title").innerHeight();
