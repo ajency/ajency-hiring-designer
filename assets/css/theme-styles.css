@@ -445,7 +445,7 @@ header {
     width: 50%;
     background-color: #F0C60A;
     color: transparent;
-    height: 238px;
+    height: 100%;
     position: absolute;
     left: 0;
   }
