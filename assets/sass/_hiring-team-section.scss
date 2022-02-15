@@ -1,0 +1,33 @@
+.hiring-team-section{
+    margin-bottom: 100px;
+    hr{
+        margin: 13px 0px 27px;
+    }
+    .para{
+        width: 110%;
+        position: relative;
+        z-index: 1;
+    }
+    .right-side{
+        img{
+            width: 100%;
+        }
+    }
+    @media(max-width:768px){
+        .para{
+            width: 100%;
+        }
+        margin-bottom: 50px;
+    }
+    @media(max-width:991px){
+        hr{
+            margin: 22px 0px 20px;
+        }
+        .main-title{
+            max-width: 273px;
+        }
+        .para{
+            margin-top: 20px;
+        }
+    }
+}

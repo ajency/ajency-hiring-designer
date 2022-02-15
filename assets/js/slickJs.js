@@ -78,5 +78,7 @@ $(document).ready(function () {
     $('.banner-gif').show()
 });
 
-var bgHeight = $(".hero-section.new .right-side .main-title").innerHeight();
-$(".hero-section.new .right-side .gif-container .bg-element").css("height",bgHeight);
+$(window).on("load resize",function(e){
+    var bgHeight = $(".hero-section.new .right-side .main-title").innerHeight();
+    $(".hero-section.new .right-side .gif-container .bg-element").css("height",bgHeight);
+});
