@@ -83,6 +83,7 @@ $(window).on("load resize",function(e){
     $(".hero-section.new .right-side .gif-container .bg-element").css("height",bgHeight);
 
     var videoSecHeight = $(".video-section .video-section-wrapper").innerHeight();
-    var videoContainerTop = (videoSecHeight - 419)/2;
+    var imageHeight = $(".video-section .video-section-wrapper .video-container").innerHeight();
+    var videoContainerTop = (videoSecHeight - imageHeight)/2;
     $(".video-section .video-section-wrapper .video-container").css("top",videoContainerTop);
 });

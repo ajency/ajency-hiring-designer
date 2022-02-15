@@ -71,23 +71,19 @@
             }
         }
     }
-    @media (min-width: 1200px) and (max-width: 1400px){
+    @media (min-width: 992px) and (max-width: 1400px){
         .video-section-wrapper{
             .floatleft{
-                width: 35%;
+                width: 55%;
             }
             .para, .author-name{
-                width: 35%;
+                width: 50%;
             }
-        }
-    }
-    @media (min-width: 992px) and (max-width: 1200px){
-        .video-section-wrapper{
-            .floatleft{
-                width: 25%;
-            }
-            .para, .author-name{
-                width: 25%;
+            .video-container{
+                width: 45%;
+                img{
+                    width: 100%;
+                }
             }
         }
     }
