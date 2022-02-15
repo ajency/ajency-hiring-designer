@@ -81,4 +81,8 @@ $(document).ready(function () {
 $(window).on("load resize",function(e){
     var bgHeight = $(".hero-section.new .right-side .main-title").innerHeight();
     $(".hero-section.new .right-side .gif-container .bg-element").css("height",bgHeight);
+
+    var videoSecHeight = $(".video-section .video-section-wrapper").innerHeight();
+    var videoContainerTop = (videoSecHeight - 419)/2;
+    $(".video-section .video-section-wrapper .video-container").css("top",videoContainerTop);
 });
