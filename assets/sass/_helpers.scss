@@ -33,6 +33,9 @@ body{
     @media(max-width:768px){
         font-size: 36px;
     }
+    @media (max-width:1336px) and (min-width:992px){
+        font-size: 32px;
+    }
 }
 .subtitle{
     font-size: 22px;

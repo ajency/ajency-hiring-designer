@@ -1,11 +1,14 @@
 .clients-section{
     .main-title{
-        max-width: 90%;
+        max-width: 68%;
         margin: auto;
         text-align: center;
 
         @media (max-width: 768px){
             max-width: 100%;
+        }
+        @media (max-width:1336px) and (min-width:992px){
+            max-width: 61%;
         }
     }
     margin-bottom: 60px;
@@ -44,12 +47,19 @@
         flex-direction: column;
         align-items: flex-start;
         padding-top: 14%;
-        margin: 0 10px;
+        margin: 0 11px;
         color: $white;
+
+        &:first-child{
+            margin-left: 0px;
+        }
+        &:last-child{
+            margin-right: 0px;
+        }
 
         @media (max-width:992px){
             padding-top: 3.9%;
-            margin: 0 10px;
+            margin: 0 11px;
             color: #FFFFFF;
         }
         @media (max-width:479px){

@@ -20,9 +20,15 @@
                 font-family: 'Poppins', sans-serif;
             }
             ul{
-                line-height: 223.4%;
                 padding-left: 25px;
                 margin: 45px 0px 40px;
+                line-height: 26px;
+
+                li{
+                    &:not(:last-child){
+                        margin-bottom: 18px;
+                    }
+                }
             }
             .float-button{
                 position: absolute;
@@ -76,17 +82,24 @@
             min-height: 86px;
         }
     }
+    @media (max-width:1336px) and (min-width:992px){
+        .job-desc{
+            .job-desc-wrapper{
+                .job-title{
+                    min-height: auto;
+                    font-size: 32px;
+                }
+                .job-exp{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
 }
 
 .black-section{
     margin-bottom: 83px;
     @media(max-width:768px){
         margin-bottom: 40px;
-    }
-}
-
-.faq-section{
-    @media(max-width:768px){
-        padding: 0px;
     }
 }

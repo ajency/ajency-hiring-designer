@@ -15,7 +15,12 @@
             font-weight: 500;
             margin-top: 21px;
             margin-bottom: 0px;
-            line-height: 183.3%;
+            line-height: 26px;
+            li{
+                &:not(:last-child){
+                    margin-bottom: 18px;
+                }
+            }
         }
     }
     .right-side{
@@ -131,5 +136,14 @@
     }
     @media (min-width: 1400px){
         margin-bottom: 100px;
+    }
+    @media (max-width:1336px) and (min-width:992px){
+        margin-bottom: 116px;
+        .left-side{
+            .main-title{
+                width: 700px;
+                font-size: 48px;
+            }
+        }
     }
 }
