@@ -10,12 +10,14 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    dots: true,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
+                    dots: true,
                     slidesToShow: 1,
                     centerMode: true,
                     centerPadding: '50px',
@@ -34,12 +36,14 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    dots: true,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
+                    dots: true,
                     slidesToShow: 1,
                     centerMode: true,
                     centerPadding: '50px',
@@ -59,12 +63,14 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    dots: true,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
+                    dots: true,
                     slidesToShow: 1,
                     centerMode: true,
                     centerPadding: '20px',
